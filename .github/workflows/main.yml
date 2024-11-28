@@ -1,0 +1,9 @@
+name: Hellow world
+
+on: workflow_dispatch
+jobs:
+  Hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello world
+        run: cat hello
